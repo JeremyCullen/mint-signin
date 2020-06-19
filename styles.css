@@ -1,3 +1,29 @@
 body {
     background: #ECEEF1;
 }
+
+.intuit-logo{
+    
+    height: auto; 
+    width: auto; 
+    max-width: 700px; 
+    max-height: 700px;  
+}
+
+
+#main-header {
+
+    display: block;
+    margin-left: 600px;
+    margin-right: auto 
+}
+
+#sign-in-button {
+background: linear-gradient(#49708f, #293f50);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  float: right;
+  padding: 8px 16px;
+}

@@ -7,19 +7,52 @@
     </head>
     <body>
         <section>
-            <div>
-
-            </div>
-            <header id="main-header" class="titles">
-                <div id="logo-container" class="logo-container">
-                    
-                        
-                    <img src="https://www.intuit.com/content/dam/intuit/intuitcom/company/images/icom-logo-ecosystem-lockup-2line.png">
-                        
-                        
-                    
+            <div class="ius-hosted-ui-navigation-wrapper" style="height: 60px">
+                  <div class="ius-hosted-ui-navigation-column">
+                    <button name="sign-in" id="sign-in-button">
+                        Already have an account? <strong>Sign In</strong>
+                    </button>  
+                  </div>
                 </div>
+              </div>
+
+            <header id="main-header" class="title">
+                 
+                <img id="intuit-logo" class="intuit-logo" src="https://www.intuit.com/content/dam/intuit/intuitcom/company/images/icom-logo-ecosystem-lockup-2line.png">
+                        
             </header>
+
+        </section>
+        <section>
+
+             <div class="sing-up-widget">
+                <header class="ius-header-container">
+                     <span id="ius-sign-up-header" class="ius-header">Create an Intuit account</span>
+                        
+                </header>
+                <form>
+                    <fieldset class="account-info">
+                      <label>
+                        Email address
+                        <input type="text" name="email">
+                      </label>
+                      <label>
+                        Phone (recommended)
+                        <input type="text" name="phone-number">
+                      </label>
+                      <label>
+                        Password
+                        <input type="password" name="password">
+                      </label>
+                    </fieldset>
+                    <fieldset class="account-action">
+                      <input class="btn" type="submit" name="submit" value="Create Account">
+                      
+                    </fieldset>
+                  </form>
+                  
+             </div>
+
         </section>
     </body>
 </html>
